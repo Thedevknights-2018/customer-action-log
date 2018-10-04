@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <tdk_customer_action_log>
+            <general>
+                <log_life_time>7</log_life_time>
+                <clean_expired_cron>0 0 * * *</clean_expired_cron>
+            </general>
+        </tdk_customer_action_log>
+    </default>
+</config>

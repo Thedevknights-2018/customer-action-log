@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="tdk_customer_action_log" translate="label" type="text" sortOrder="999" showInDefault="1"
+                 showInWebsite="0"
+                 showInStore="0">
+            <label>Customer Action Log</label>
+            <tab>tdk</tab>
+            <resource>TDK_CustomerActionLog::config</resource>
+            <group id="general" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="0"
+                   showInStore="0">
+                <label>General</label>
+                <field id="log_life_time" translate="label" type="text" sortOrder="10" showInDefault="1"
+                       showInWebsite="0"
+                       showInStore="0" canRestore="1">
+                    <label>Log Life Time (days)</label>
+                    <validate>validate-number</validate>
+                </field>
+                <field id="clean_expired_cron" translate="label" type="text" sortOrder="20" showInDefault="1"
+                       showInWebsite="0" showInStore="0" canRestore="1">
+                    <label>Clean Expired Cron</label>
+                    <validate>cron-expression</validate>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

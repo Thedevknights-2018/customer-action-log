@@ -1,0 +1,15 @@
+{
+    "name": "tdk/customer-action-log",
+    "description": "Log Customer Actions",
+    "type": "magento2-module",
+    "require": {
+        "tdk/core": "*"
+    },
+    "authors": [
+        {
+            "name": "Nguyen Dinh Minh",
+            "email": "minhrau92@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
