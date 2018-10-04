@@ -3,13 +3,17 @@
     "description": "Log Customer Actions",
     "type": "magento2-module",
     "require": {
-        "tdk/core": "*"
+        "tdk/core": "^1.2"
     },
     "authors": [
         {
             "name": "Nguyen Dinh Minh",
             "email": "minhrau92@gmail.com"
         }
+    ],
+    "version": "1.0.1",
+    "license": [
+        "proprietary"
     ],
     "minimum-stability": "stable"
 }
