@@ -11,9 +11,17 @@
             "email": "minhrau92@gmail.com"
         }
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": [
         "proprietary"
     ],
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "TDK\\CustomerActionLog\\": "src"
+        }
+    },
     "minimum-stability": "stable"
 }
